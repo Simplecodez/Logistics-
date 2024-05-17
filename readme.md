@@ -57,3 +57,13 @@ To get started with our Logistics App, follow these steps:
 
 6. **Access the App**
    Open your browser and navigate to http://localhost:3000 to access the Real Logistics App.
+
+7. **API Documentation**
+   For detailed API documentation and examples, please refer to our Postman Documentation: [text](https://documenter.getpostman.com/view/24965894/2sA3JT2dSK)
+
+8. **Contributing**
+   We welcome contributions from the community! If you'd like to contribute to our project, please follow these guidelines:
+
+   Fork the repository and create a new branch for your feature or bug fix.
+   Make your changes and ensure all tests pass.
+   Submit a pull request describing your changes and their rationale.

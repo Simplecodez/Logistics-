@@ -27,8 +27,8 @@ To get started with our Logistics App, follow these steps:
 
 1. **Clone the Repository**:
    ```
-   git clone https://github.com/your_username/logistics-app.git
-   cd logistics-app
+   git clone https://github.com/Simplecodez/Real-Logistics.git
+   cd Real-Logistics
    ```
 2. **Install Dependencies**:
    npm install
@@ -56,14 +56,14 @@ To get started with our Logistics App, follow these steps:
    npm start
 
 6. **Access the App**
-   Open your browser and navigate to http://localhost:3000 to access the Real Logistics App.
+   Open your browser and navigate to [API URL](https://real-logistics.onrender.com) to access the Real Logistics App.
 
 7. **API Documentation**
-   For detailed API documentation and examples, please refer to our [Postman Documentation:](https://documenter.getpostman.com/view/24965894/2sA3JT2dSK)
+   For detailed API documentation and examples, please refer to our [Postman Documentation](https://documenter.getpostman.com/view/24965894/2sA3JT2dSK)
 
 8. **Contributing**
    We welcome contributions from the community! If you'd like to contribute to our project, please follow these guidelines:
 
-   Fork the repository and create a new branch for your feature or bug fix.
-   Make your changes and ensure all tests pass.
-   Submit a pull request describing your changes and their rationale.
+   - 1. Fork the repository and create a new branch for your feature or bug fix.
+   - 2. Make your changes and ensure all tests pass.
+   - 3. Submit a pull request describing your changes and their rationale.

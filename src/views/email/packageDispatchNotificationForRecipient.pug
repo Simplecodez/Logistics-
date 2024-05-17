@@ -1,0 +1,41 @@
+extends baseEmail
+
+block content
+  h2 Dispatch Notification
+  p Hello,
+  p We hope this email finds you well. We want to inform you that your package sent from #{userName} currently on transit to your. Here are the details:
+
+  table(style="font-family: Arial, sans-serif;")
+    tr
+      td(style="font-weight: bold; width:200px") Package Name:
+      td #{packageName}
+    tr
+      td(style="font-weight: bold; width:200px") Tracking Number:
+      td [#{trackingNumber}]
+    tr
+      td(style="font-weight: bold; width:200px") Tracking Password (To be used together with the tracking number for tracking package location.):
+      td [#{trackingPassword}]
+    tr
+      td(style="font-weight: bold; width:200px") Sender's Phone Number:
+      td [#{phoneNumber}] 
+    tr
+      td(style="font-weight: bold; width:200px") Destination:
+      td [#{destination}]
+    tr
+      td(style="font-weight: bold; width:200px") Status:
+      td #{status}
+    tr
+      td(style="font-weight: bold; width:200px") Estimated Time of Arrival:
+      td #{ETA}
+    tr
+      td(style="font-weight: bold; width:200px") Dispatch Date:
+      td #{dispatchDate}
+
+  p For for tracking, kindly request a password from the center.
+  p Please note that the package is currently in transit and may take some time to reach its destination. We appreciate your patience.
+  p Thank you for choosing our services. We look forward to delivering your package successfully.
+  p Best regards,
+  p Real Logistics Inc
+
+  p For questions and enquiries you can reach us via-
+  p email: gozieelendu@gmail.com

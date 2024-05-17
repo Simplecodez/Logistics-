@@ -1,0 +1,38 @@
+extends baseEmail
+
+block content
+  h2 Package Registration Details
+  p Hello #{userName},
+  p We have received your package registration request. Your package details are as follows:
+
+  table(style="font-family: Arial, sans-serif;")
+    tr
+      td(style="font-weight: bold;") Package Name:
+      td #{packageName}
+    tr
+      td(style="font-weight: bold;") Tracking Number:
+      td [#{trackingNumber}]
+    tr
+      td(style="font-weight: bold;") Tracking Password:
+      td [#{trackingPassword}] (You can share this together Tracking Number with the receiving party to track if need be.)
+    tr
+      td(style="font-weight: bold;") Status:
+      td #{status}
+    tr
+      td(style="font-weight: bold;") Pick up location:
+      td #{pickUpAddress} (Please be there on time.)
+    tr
+      td(style="font-weight: bold;") Destination:
+      td #{destination}
+    tr
+      td(style="font-weight: bold;") Estimated Time of Arrival:
+      td #{ETA}
+
+  p Once your package is ready for dispatch, we'll notify you via email.
+  p If you have any questions or need further assistance, please don't hesitate to reach out to our customer support team at gozieelendu@gmail.com or 08072605647.
+  p Thank you for choosing our services. We appreciate you and look forward to delivering your package to its destination.
+  p Best regards,
+  p Real Logistics Inc
+  
+  p For questions and enquiries you can reach us via-
+  p email: gozieelendu@gmail.com

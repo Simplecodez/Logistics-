@@ -40,7 +40,7 @@ app.use('*', (req, res, next) => {
 
 // Global Express Error handler
 app.use(errorHandler);
-// For production, the server will be created via the https protocol to prevent
+// For production, the server will be created via the https with a valid TCP and SSL certificate protocol to prevent
 // eavedropping or data tempering.
 const httpServer = createServer(app);
 const io = new Server(httpServer, {

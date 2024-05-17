@@ -42,9 +42,13 @@ RUN --mount=type=bind,source=package.json,target=package.json \
 
 # Copy the rest of the source files into the image.
 COPY . .
+
+
 # Run the build script.
 RUN npm run build
 
+# Copy the views folder for serving email templates
+COPY ./src/views ./dist
 ################################################################################
 # Create a new stage to run the application with minimal runtime dependencies
 # where the necessary files are copied from the build stage.

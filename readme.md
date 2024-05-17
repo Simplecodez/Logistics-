@@ -56,7 +56,7 @@ To get started with our Logistics App, follow these steps:
    npm start
 
 6. **Access the App**
-   Open your browser and navigate to [API URL](https://real-logistics.onrender.com) to access the Real Logistics App.
+   Open your browser and navigate to https://real-logistics.onrender.com to access the Real Logistics App.
 
 7. **API Documentation**
    For detailed API documentation and examples, please refer to our [Postman Documentation](https://documenter.getpostman.com/view/24965894/2sA3JT2dSK)

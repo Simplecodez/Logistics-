@@ -49,19 +49,19 @@ To get started with our Logistics App, follow these steps:
    JWT_EXPIRES_IN
    JWT_COOKIE_EXPIRES_IN
    ```
-4. **Build your Typescript**
+4. **Build your Typescript**:
    npm run build
 
-5. **Start your server**
+5. **Start your server**:
    npm start
 
-6. **Access the App**
+6. **Access the App**:
    Open your browser and navigate to https://real-logistics.onrender.com to access the Real Logistics App.
 
-7. **API Documentation**
+7. **API Documentation**:
    For detailed API documentation and examples, please refer to our [Postman Documentation](https://documenter.getpostman.com/view/24965894/2sA3JT2dSK)
 
-8. **Contributing**
+8. **Contributing**:
    We welcome contributions from the community! If you'd like to contribute to our project, please follow these guidelines:
 
    - 1. Fork the repository and create a new branch for your feature or bug fix.
